@@ -8,11 +8,15 @@ DARK BLUE: #1D3557
 
 */
 
+html {
+    max-width: 800px
+}
+
 body {
     margin: 0;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    max-width: 800px
+    
 }
 
 img {
