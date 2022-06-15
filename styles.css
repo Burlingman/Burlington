@@ -8,14 +8,13 @@ DARK BLUE: #1D3557
 
 */
 
-html {
-    max-width: 800px;
-    margin: 0 auto;
-    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+html {    
+  background: lightblue
 }
 
 body {
-    margin: 0;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     
