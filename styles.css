@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+img {
+    width: 100px;
+}
+
+#home-banner {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+    background-image: url("images/burlington.jpg");
+    background-size: cover;
+    padding-bottom: 100px;
+    color: white;    
+}
+
+#title {
+    width: 200px;
+    margin: 20px auto 20px;
+    padding: 20px;
+    background: #1D3557;
+    border-radius: 10px;
+}
+
+#header-description {
+    width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #457B9D;
+    border-radius: 10px;
+}
+
+.activity-img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;    
+}
+
+.activity-img:hover {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;       
+    transition: width 2s, height 2s, transform 1.5s;
+}
+
+#activity-section {
+    margin-top: 0;
+    background: #F1FAEE;
+}
+
+#top-activity-title {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.activities {
+    display: flex;
+    padding: 10px 30px ; 
+    justify-content: space-around ;
+     
+    
+}
+
+.activity-single {
+    padding: 0 10px;
+    
+}
+
+.footer {
+   background: linear-gradient(lightblue, lightgreen);
+   padding: 30px 0;
+   
+   
+}
+
+#guide-details {
+    width: 200px;    
+    margin-left: 10px;
+    font-size: 12px
+    
+    
+}
+
+#guide{    
+    width: 150px;
+    height: 130px;
+    margin-left: 10px;
+    border-radius: 50%;
+    
+}
+
+.container {
+    padding: 30px;
+    width: 300px;
+    margin: 0 auto;     
+    /* background: #A8DADC; */
+    border-radius: 10px;
+    border-bottom: 5px black solid;
+    display: flex;
+    flex-direction: row-reverse;   
+    align-items: center;    
+    
+    background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+    
+}
