@@ -9,8 +9,9 @@ DARK BLUE: #1D3557
 */
 
 html {
-    background: lightblue;
-     
+    display: flex;
+    align-content: space-around;
+    background: lightblue;     
 }
 
 body {
