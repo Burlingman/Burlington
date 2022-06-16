@@ -9,12 +9,13 @@ DARK BLUE: #1D3557
 */
 
 html {
-    display: flex;
-    align-content: space-around;
     background: lightblue;     
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;  
     margin: 0 auto;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
